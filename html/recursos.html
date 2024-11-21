@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site dedicado à acessibilidade na web e no cotidiano, promovendo inclusão digital e boas práticas.">
+    <title>Recursos - Programação Inclusiva</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="shortcut icon" href="../assets/logo-site.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="index.html" tabindex="0">
+            <img src="../assets/logo-programao-inclusiva.png" alt="Logo Programação Inclusiva">
+            <figcaption tabindex="0">Imagem: Logo do Site</figcaption>
+        </a>
+        <nav class="header-links" role="navigation" aria-label="Menu principal">
+            <ul class="header-titulos">
+                <li tabindex="0"><a href="index.html" tabindex="0">Home</a></li>
+                <li tabindex="0"><a href="barreiras.html" tabindex="0">Barreiras</a></li>
+                <li tabindex="0"><a href="importancia.html" tabindex="0">Importância</a></li>
+                <li tabindex="0"><a href="recursos.html" tabindex="0">Recursos</a></li>
+                <li tabindex="0"><a href="tecnologias.html" tabindex="0">Tecnologias</a></li>
+            </ul>
+        </nav>
+        <div class="accessibility-buttons">
+            <button id="contrast-toggle" data-state="normal" aria-label="Ativar alto contraste">Alto Contraste</button>
+            <button id="screen-reader-toggle" aria-label="Ativar leitor de tela">Ler Página Inteira</button>
+        </div>
+        <div class="font-control-buttons">
+            <button id="increase-font" aria-label="Aumentar o tamanho da fonte">A+</button>
+            <button id="decrease-font" aria-label="Diminuir o tamanho da fonte">A-</button>
+        </div>
+    </header>
+    <main>
+        <section class="section-container">
+            <article>
+                    <h1 tabindex="0">Recursos de Acessibilidade</h1>
+                <p tabindex="0">A acessibilidade digital é garantida por uma combinação de Tecnologias assistivas, práticas de design inclusivo e ferramentas específicas que ajudam a remover barreiras na web. Esses recursos são essenciais para garantir que pessoas com diferentes habilidades possam acessar e interagir com conteúdos digitais de forma autônoma.</p>
+                <p tabindex="0">Nesta página, você encontrará uma visão geral dos principais recursos disponíveis para melhorar a acessibilidade em sites e aplicativos.</p>
+                <button class="read-section" aria-label="Ler esta seção">Ler Seção</button>
+            </article>
+        </section>
+        <section class="section-container">
+            <div class="content-container">
+                <article class="text-side">
+                    <h2 tabindex="0">Ferramentas Tecnológicas</h2>
+                    <p tabindex="0">Ferramentas tecnológicas desempenham um papel vital na acessibilidade, permitindo que sites e aplicativos sejam usados por todos. Algumas delas incluem:</p>
+                    <ul>
+                        <li tabindex="0"><strong>Leitores de Tela:</strong> Softwares como NVDA, JAWS e VoiceOver que permitem que pessoas cegas naveguem na web ouvindo o conteúdo textual.</li>
+                        <li tabindex="0"><strong>Lupas de Tela:</strong> Ferramentas que ampliam conteúdo para pessoas com baixa visão.</li>
+                        <li tabindex="0"><strong>Sintetizadores de Voz:</strong> Tecnologias que transformam texto em áudio.</li>
+                        <li tabindex="0"><strong>Teclados Virtuais:</strong> Alternativa para pessoas com dificuldades motoras que não conseguem usar teclados físicos.</li>
+                    </ul>
+                    <button class="read-section" aria-label="Ler esta seção">Ler Seção</button>
+                </article>
+                <figure class="image-container-right">
+                    <img src="../assets/site-com-acessibilidade.jpg" alt="Site que mostra acessibilidade por leitura de tela">
+                    <figcaption tabindex="0">Imagem: Site que mostra acessibilidade por leitura de tela.</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="section-container">
+            <div class="content-container">
+                <figure class="image-container">
+                    <img src="../assets/mulher-deficiente-visual.jpg" alt="Mulher com dificuldade em enxergar utilizando tamanhos maiores de letras">
+                    <figcaption tabindex="0">Imagem: Mulher com dificuldade em enxergar utilizando tamanhos maiores de letras.</figcaption>
+                </figure>
+                <article class="text-side">
+                    <h2 tabindex="0">Práticas de Design Inclusivo</h2>
+                    <p tabindex="0">Um design bem elaborado é fundamental para garantir a acessibilidade. Práticas importantes incluem:</p>
+                    <ul>
+                        <li tabindex="0"><strong>Contraste de Cores:</strong> Garante que o texto seja legível mesmo para pessoas com daltonismo ou baixa visão.</li>
+                        <li tabindex="0"><strong>Texto Alternativo em Imagens:</strong> Ajuda usuários de leitores de tela a entender o conteúdo visual.</li>
+                        <li tabindex="0"><strong>Navegação por Teclado:</strong> Permite que todos os elementos interativos possam ser acessados sem o uso do mouse.</li>
+                        <li tabindex="0"><strong>Fontes Claras:</strong> Usar fontes legíveis com tamanhos adequados facilita a leitura para todos os públicos.</li>
+                    </ul>
+                    <button class="read-section" aria-label="Ler esta seção">Ler Seção</button>
+                </article>
+            </div>
+        </section>
+        <section class="section-container">
+            <article>
+                    <h2 tabindex="0">Ferramentas de Teste de Acessibilidade</h2>
+                <p tabindex="0">Existem ferramentas online e extensões que ajudam desenvolvedores e designers a identificar e corrigir barreiras de acessibilidade em sites e aplicativos:</p>
+                <ul>
+                    <li tabindex="0"><strong>WAVE:</strong> Analisa a acessibilidade de páginas da web e fornece relatórios detalhados.</li>
+                    <li tabindex="0"><strong>AXE:</strong> Ferramenta integrada ao navegador para testar acessibilidade durante o desenvolvimento.</li>
+                    <li tabindex="0"><strong>Color Contrast Analyzer:</strong> Verifica o contraste de cores para garantir legibilidade.</li>
+                    <li tabindex="0"><strong>Google Lighthouse:</strong> Audita páginas para desempenho, SEO e acessibilidade.</li>
+                </ul>
+                <p tabindex="0">O uso dessas ferramentas facilita o cumprimento de diretrizes como as <strong>WCAG (Web Content Accessibility Guidelines)</strong> e promove a inclusão digital.</p>
+                <button class="read-section" aria-label="Ler esta seção">Ler Seção</button>
+            </article>
+        </section>
+        <section class="section-container">
+            <article>
+                    <h2 tabindex="0">Logo...</h2>
+                <p tabindex="0">Implementar recursos de acessibilidade em sites e aplicativos não é apenas uma responsabilidade social, mas também uma oportunidade de ampliar o alcance e impacto de conteúdos digitais. Com as ferramentas tecnológicas disponíveis e práticas de design inclusivo, é possível criar experiências digitais que sejam verdadeiramente acessíveis para todos.</p>
+                <button class="read-section" aria-label="Ler esta seção">Ler Seção</button>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-container">
+            <figure>
+                <img src="../assets/personagens-com-deficiencias.png" alt="Personagens com deficiências diferentes sorrindo uns aos outros" tabindex="0">
+                <figcaption tabindex="0">Imagem: Personagens com deficiências diferentes sorrindo uns aos outros</figcaption>
+            </figure>
+            <aside class="footer-info">
+                <article class="footer-coluna">
+                    <h3 tabindex="0">Seções</h3>
+                    <ul>
+                        <li tabindex="0"><a href="index.html" tabindex="0">Home</a></li>
+                        <li tabindex="0"><a href="barreiras.html" tabindex="0">Barreiras</a></li>
+                        <li tabindex="0"><a href="importancia.html" tabindex="0">Importância</a></li>
+                        <li tabindex="0"><a href="recursos.html" tabindex="0">Recursos</a></li>
+                        <li tabindex="0"><a href="tecnologias.html" tabindex="0">Tecnologias</a></li>
+                    </ul>
+                </article>
+                <article class="footer-coluna">
+                    <h3 tabindex="0">Contato</h3>
+                    <ul>
+                        <li tabindex="0"><a href="mailto:contato@programacaoinclusiva.com" tabindex="0">E-mail</a></li>
+                        <li tabindex="0"><a href="tel:+5511999999999" tabindex="0">Telefone</a></li>
+                        <li tabindex="0"><a href="https://www.instagram.com/acessibilidadecotidiana" target="_blank" tabindex="0">Instagram</a></li>
+                        <li tabindex="0"><a href="https://www.facebook.com/acessibilidadecotidiana" target="_blank" tabindex="0">Facebook</a></li>
+                    </ul>
+                </article>
+            </aside>
+        </section>
+    </footer>
+    
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+    <script src="../js/acessibilidades.js"></script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>

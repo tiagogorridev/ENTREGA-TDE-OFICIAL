@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site dedicado à acessibilidade na web e no cotidiano, promovendo inclusão digital e boas práticas.">
+    <title>Barreiras - Programação Inclusiva</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="shortcut icon" href="../assets/logo-site.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="index.html" tabindex="0">
+            <img src="../assets/logo-programao-inclusiva.png" alt="Logo Programação Inclusiva">
+            <figcaption tabindex="0">Imagem: Logo do Site</figcaption>
+        </a>
+        <nav class="header-links" role="navigation" aria-label="Menu principal">
+            <ul class="header-titulos">
+                <li tabindex="0"><a href="index.html" tabindex="0">Home</a></li>
+                <li tabindex="0"><a href="barreiras.html" tabindex="0">Barreiras</a></li>
+                <li tabindex="0"><a href="importancia.html" tabindex="0">Importância</a></li>
+                <li tabindex="0"><a href="recursos.html" tabindex="0">Recursos</a></li>
+                <li tabindex="0"><a href="tecnologias.html" tabindex="0">Tecnologias</a></li>
+            </ul>
+        </nav>
+        <div class="accessibility-buttons">
+            <button id="contrast-toggle" data-state="normal" aria-label="Ativar alto contraste">Alto Contraste</button>
+            <button id="screen-reader-toggle" aria-label="Ativar leitor de tela">Ler Página Inteira</button>
+        </div>
+        <div class="font-control-buttons">
+            <button id="increase-font" aria-label="Aumentar o tamanho da fonte">A+</button>
+            <button id="decrease-font" aria-label="Diminuir o tamanho da fonte">A-</button>
+        </div>
+    </header>
+        <main>
+            <section class="section-container">
+                <article>
+                        <h1 tabindex="0">Barreiras na Acessibilidade Web</h1>
+                    <p tabindex="0">
+                        Apesar de todos os avanços alcançados nas últimas décadas, tanto em termos tecnológicos quanto na implementação de leis e diretrizes voltadas à inclusão digital, ainda existem inúmeras barreiras que dificultam ou até mesmo impedem a navegação e o uso pleno da web por pessoas com diferentes tipos de deficiência. Essas barreiras representam um obstáculo significativo para a construção de uma sociedade mais inclusiva, impactando negativamente não apenas a vida das pessoas diretamente afetadas, mas também a sociedade como um todo.
+                    </p>
+                    <button class="read-section" aria-label="Ler esta seção">Ler Seção</button>
+                </article>
+            </section>
+            <section class="section-container">
+                <article>
+                    <h2 tabindex="0">A Importância da Acessibilidade na Web para a Inclusão Social</h2>
+                    <p tabindex="0">
+                        A acessibilidade na web é um direito fundamental que garante a inclusão social de pessoas com diferentes tipos de deficiência. Segundo um relatório da Organização Mundial da Saúde (OMS), mais de um bilhão de pessoas no mundo têm algum tipo de deficiência, e muitas delas enfrentam desafios significativos para acessar informações e serviços online.
+                    </p>
+                    <p tabindex="0">
+                        Implementar diretrizes de acessibilidade, como as WCAG (Web Content Accessibility Guidelines), é crucial para assegurar que todos possam participar ativamente da sociedade digital. Além disso, pesquisas indicam que a acessibilidade não beneficia apenas pessoas com deficiência, mas também idosos, pessoas com habilidades motoras reduzidas temporariamente e usuários de dispositivos móveis.
+                    </p>
+                    <p tabindex="0">
+                        Referências:
+                        <ul>
+                            <li tabindex="0">W3C. (2021). <em>Web Content Accessibility Guidelines (WCAG)</em>. Disponível em: <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">https://www.w3.org/WAI/standards-guidelines/wcag/</a></li>
+                            <li tabindex="0">Organização Mundial da Saúde. (2020). <em>Relatório Mundial sobre Deficiência</em>. OMS.</li>
+                        </ul>
+                    </p>
+                    <button class="read-section" aria-label="Ler esta seção">Ler Seção</button>
+                </article>
+            </section>
+            <section class="section-container">
+                <div class="content-container">
+                    <figure class="image-container">
+                        <img src="../assets/deficiente-visual.jpg" alt="Menino com deficiência visual utilizando computador">
+                        <figcaption>Imagem: Menino com deficiência visual utilizando o computador.</figcaption>
+                    </figure>
+                    <article class="text-side">
+                        <h2 tabindex="0">Barreiras Visuais</h2>
+                        <p tabindex="0">
+                            Usuários com deficiência visual, como pessoas cegas, com baixa visão ou daltonismo, enfrentam várias dificuldades ao navegar na web. Essas barreiras podem variar em gravidade dependendo do design e da implementação do site.
+                        </p>
+                        <ul>
+                            <li tabindex="0">
+                                <strong>Baixo contraste de cores:</strong>
+                                <ul>
+                                    <li tabindex="0">Sites com combinações de cores inadequadas tornam difícil ou impossível a leitura de texto para pessoas com baixa visão ou daltonismo.</li>
+                                    <li tabindex="0">Contrastes insuficientes afetam diretamente a legibilidade e a usabilidade, mesmo para pessoas sem deficiência visual severa, especialmente em ambientes com pouca luz.</li>
+                                </ul>
+                            </li>
+                            <li tabindex="0">
+                                <strong>Imagens sem textos alternativos (alt text):</strong>
+                                <ul>
+                                    <li tabindex="0">Quando imagens importantes não possuem descrições alternativas, leitores de tela não conseguem transmitir o significado dessas imagens para usuários cegos.</li>
+                                    <li tabindex="0">Essa falta de contexto pode limitar o entendimento de conteúdos visuais cruciais, como gráficos, diagramas e fotografias ilustrativas.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <button class="read-section" aria-label="Ler esta seção">Ler Seção</button>
+                    </article>
+                </div>
+            </section>
+            <section class="section-container">
+                <article>
+                    <h2 tabindex="0">Barreiras Motoras</h2>
+                    <p tabindex="0">
+                        Usuários com limitações motoras enfrentam desafios significativos ao interagir com sites que dependem exclusivamente do uso do mouse ou exigem ações rápidas. Essas barreiras podem variar em complexidade, impactando diretamente a experiência de navegação e o acesso a informações essenciais.
+                    </p>
+                    <ul tabindex="0">
+                        <li tabindex="0">
+                            <strong>Botões e links muito pequenos:</strong>
+                            <ul>
+                                <li tabindex="0">Elementos de interação, como botões ou links, que possuem tamanhos reduzidos dificultam o clique preciso, especialmente para pessoas com mobilidade limitada nas mãos ou dedos.</li>
+                                <li tabindex="0">Além disso, a falta de espaçamento entre os elementos pode gerar cliques acidentais, aumentando a frustração durante a navegação.</li>
+                            </ul>
+                        </li>
+                        <li tabindex="0">
+                            <strong>Navegação inacessível via teclado:</strong>
+                            <ul>
+                                <li tabindex="0">Sites que não permitem a navegação completa usando apenas o teclado excluem usuários que dependem desse dispositivo ou de tecnologias assistivas, como teclados adaptados ou controladores de movimento.</li>
+                                <li tabindex="0">Falta de foco visível nos elementos interativos dificulta a orientação durante a navegação.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <button class="read-section" aria-label="Ler esta seção">Ler Seção</button>
+                </article>
+            </section>
+            <section class="section-container">
+                <div class="content-container">
+                    <article class="text-side">
+                        <h2 tabindex="0">Barreiras Auditivas</h2>
+                        <p tabindex="0">
+                            Pessoas com deficiência auditiva enfrentam limitações na web quando conteúdo multimídia não oferece suporte adequado:
+                        </p>
+                        <ul>
+                            <li tabindex="0">
+                                <strong>Vídeos sem legendas:</strong>
+                                <ul>
+                                    <li tabindex="0">Conteúdos em vídeo que não possuem legendas dificultam ou impossibilitam o acesso para usuários surdos ou com perda auditiva.</li>
+                                    <li tabindex="0">A ausência de legendas impede que informações cruciais, como tutoriais, palestras e notícias, sejam compreendidas por esse público.</li>
+                                </ul>
+                            </li>
+                            <li tabindex="0">
+                                <strong>Ausência de tradução em Libras (Língua Brasileira de Sinais):</strong>
+                                <ul>
+                                    <li tabindex="0">Muitos surdos utilizam Libras como sua principal forma de comunicação. A falta de tradução para Libras em conteúdos digitais limita significativamente a inclusão desse público.</li>
+                                    <li tabindex="0">A implementação de vídeos ou avatares que traduzam o conteúdo para Libras pode melhorar a acessibilidade e promover maior engajamento.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </article>
+                    <button class="read-section" aria-label="Ler esta seção">Ler Seção</button>
+                    <figure class="image-container-right">
+                        <img src="../assets/deficiente-auditivo.avif" alt="Pessoa com deficiência auditiva no computador">
+                        <figcaption>Imagem: Pessoa com deficiência auditiva utilizando o computador.</figcaption>
+                    </figure>
+                </div>
+            </section>
+        <section class="section-container">
+            <article>
+                <h2 tabindex="0">Barreiras na Educação Online e Como Superá-las</h2>
+                <p tabindex="0">
+                    A educação online tornou-se uma ferramenta essencial, especialmente durante a pandemia de COVID-19. No entanto, a falta de acessibilidade em plataformas educacionais prejudica o aprendizado de alunos com deficiência. Por exemplo, conteúdos multimídia sem legendas ou transcrições tornam as aulas inacessíveis para estudantes surdos.
+                </p>
+                <p tabindex="0">
+                    Um estudo conduzido pela Universidade de São Paulo (USP) revelou que apenas 30% das plataformas educacionais no Brasil seguem as diretrizes básicas de acessibilidade. Isso destaca a necessidade urgente de adaptação tecnológica para garantir a igualdade de oportunidades na educação.
+                </p>
+                <p tabindex="0">
+                    Soluções incluem o uso de ferramentas como leitores de tela, suporte a Libras (Língua Brasileira de Sinais) e interfaces de usuário simplificadas para pessoas com dificuldades cognitivas.
+                </p>
+                <p tabindex="0">
+                    Referências:
+                    <ul>
+                        <li tabindex="0">Universidade de São Paulo. (2021). <em>Acessibilidade na Educação Digital</em>. São Paulo.</li>
+                        <li tabindex="0">Silva, R., & Santos, A. (2020). <em>Acessibilidade e inclusão no ensino remoto</em>. Revista Brasileira de Educação, 25(1).</li>
+                    </ul>
+                </p>
+                <button class="read-section" aria-label="Ler esta seção">Ler Seção</button>
+            </article>
+        </section>
+        <section class="section-container">
+            <article>
+                <h2 tabindex="0">Barreiras Motoras</h2>
+                <p tabindex="0">
+                    Usuários com limitações motoras enfrentam desafios específicos na navegação web, especialmente quando os sites dependem exclusivamente do uso do mouse ou exigem ações rápidas e precisas. Essas barreiras podem dificultar ou até impossibilitar o acesso pleno à informação e à interação com o conteúdo digital.
+                </p>
+                <ul>
+                    <li tabindex="0">
+                        <strong>Botões e links muito pequenos:</strong>
+                        <ul>
+                            <li tabindex="0">Elementos interativos de tamanho reduzido dificultam o clique preciso, especialmente para pessoas com mobilidade limitada nas mãos ou dedos.</li>
+                            <li tabindex="0">A falta de espaçamento adequado entre os elementos pode gerar cliques acidentais, aumentando a frustração durante a navegação.</li>
+                        </ul>
+                    </li>
+                    <li tabindex="0">
+                        <strong>Navegação inacessível via teclado:</strong>
+                        <ul>
+                            <li tabindex="0">Sites que não permitem a navegação completa pelo teclado excluem usuários que dependem desse dispositivo ou de Tecnologias assistivas, como teclados adaptados ou controladores de movimento.</li>
+                            <li tabindex="0">Falta de indicação visual no elemento atualmente focado (como bordas ou destaques) dificulta a orientação durante a interação.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="read-section" aria-label="Ler esta seção">Ler Seção</button>
+            </article>
+            
+        </section>
+        <section class="section-container">
+            <article>
+                <h2 tabindex="0">Tecnologias Assistivas e a Web</h2>
+                <p tabindex="0">
+                    Tecnologias assistivas, como leitores de tela, lupas digitais e dispositivos de entrada alternativos, desempenham um papel fundamental na inclusão digital. Entretanto, a eficácia dessas ferramentas depende da compatibilidade com os sites e plataformas digitais.
+                </p>
+                <p tabindex="0">
+                    Um exemplo é o software JAWS (Job Access With Speech), amplamente utilizado por pessoas com deficiência visual. Este programa funciona melhor quando o conteúdo web segue padrões de acessibilidade como HTML semântico e ARIA (Accessible Rich Internet Applications).
+                </p>
+                <p tabindex="0">
+                    Investir na compatibilidade com Tecnologias assistivas não é apenas uma questão de inclusão social, mas também uma prática que amplia o alcance das empresas, melhorando sua reputação e atendendo a exigências legais.
+                </p>
+                <p tabindex="0">
+                    Referências:
+                    <ul>
+                        <li tabindex="0">Freedom Scientific. (2021). <em>JAWS - Job Access With Speech</em>. Disponível em: <a href="https://www.freedomscientific.com/" target="_blank">https://www.freedomscientific.com/</a></li>
+                        <li tabindex="0">W3C. (2021). <em>Accessible Rich Internet Applications (ARIA)</em>. Disponível em: <a href="https://www.w3.org/WAI/standards-guidelines/aria/" target="_blank">https://www.w3.org/WAI/standards-guidelines/aria/</a></li>
+                    </ul>
+                </p>
+                <button class="read-section" aria-label="Ler esta seção">Ler Seção</button>
+            </article>
+        </section>
+        <section class="section-container">
+            <article>
+                <h2 tabindex="0">Barreiras Cognitivas</h2>
+                <p tabindex="0">
+                    Pessoas com dificuldades de aprendizado ou processamento de informações enfrentam desafios únicos ao navegar na web. Essas barreiras podem limitar sua capacidade de compreender, processar ou interagir com o conteúdo, tornando a experiência digital frustrante ou inacessível. 
+                </p>
+                <ul>
+                    <li tabindex="0">
+                        <strong>Interface confusa ou sobrecarregada de informações:</strong>
+                        <ul>
+                            <li tabindex="0">Layouts desorganizados ou com excesso de elementos dificultam a localização de informações importantes.</li>
+                            <li tabindex="0">A sobrecarga visual, como muitas cores ou elementos animados, pode desviar a atenção e confundir o usuário.</li>
+                        </ul>
+                    </li>
+                    <li tabindex="0">
+                        <strong>Uso de linguagem técnica ou complexa:</strong>
+                        <ul>
+                            <li tabindex="0">Textos que utilizam jargões, termos técnicos ou linguagem formal demais dificultam a compreensão para pessoas com dificuldades cognitivas ou baixo letramento.</li>
+                            <li tabindex="0">A ausência de explicações simples ou visuais de apoio pode agravar o problema.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="read-section" aria-label="Ler esta seção">Ler Seção</button>
+            </article>
+        </section>
+        <section class="section-container">
+            <div class="content-container">
+                <figure class="image-container">
+                    <img src="../assets/site-com-acessibilidade.jpg" alt="Imagem representando um site com uma opção de divisão de página acessivel">
+                    <figcaption>Imagem: Um site com uma opção de divisão de página acessivel.</figcaption>
+                </figure>
+                <article class="text-side">
+                    <h2 tabindex="0">Barreiras Tecnológicas</h2>
+                    <p tabindex="0">
+                        Muitos sites e plataformas digitais ainda apresentam problemas de compatibilidade com Tecnologias assistivas, como leitores de tela, lupas digitais ou dispositivos adaptados. Essas barreiras tecnológicas dificultam ou impedem o acesso pleno de usuários com deficiência a recursos e informações essenciais.
+                    </p>
+                    <ul>
+                        <li tabindex="0">
+                            <strong>Sites não responsivos ou mal projetados para dispositivos móveis:</strong>
+                            <ul>
+                                <li tabindex="0">Plataformas que não se adaptam adequadamente a diferentes tamanhos de tela prejudicam a navegação, especialmente para usuários que dependem de Tecnologias assistivas em dispositivos móveis.</li>
+                                <li tabindex="0">Layouts não responsivos podem dificultar o acesso a botões, links ou formulários, comprometendo a experiência do usuário.</li>
+                            </ul>
+                        </li>
+                        <li tabindex="0">
+                            <strong>Conteúdo que não segue diretrizes como as WCAG:</strong>
+                            <ul>
+                                <li tabindex="0">A ausência de boas práticas de acessibilidade, como HTML semântico ou descrições de imagens (alt text), limita o uso de Tecnologias assistivas.</li>
+                                <li tabindex="0">Falta de implementação de padrões globais de acessibilidade torna os sites menos inclusivos e acessíveis.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <button class="read-section" aria-label="Ler esta seção">Ler Seção</button>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-container">
+            <figure>
+                <img src="../assets/personagens-com-deficiencias.png" alt="Personagens com deficiências diferentes sorrindo uns aos outros" tabindex="0">
+                <figcaption tabindex="0">Imagem: Personagens com deficiências diferentes sorrindo uns aos outros</figcaption>
+            </figure>
+            <aside class="footer-info">
+                <article class="footer-coluna">
+                    <h3 tabindex="0">Seções</h3>
+                    <ul>
+                        <li tabindex="0"><a href="index.html" tabindex="0">Home</a></li>
+                        <li tabindex="0"><a href="barreiras.html" tabindex="0">Barreiras</a></li>
+                        <li tabindex="0"><a href="importancia.html" tabindex="0">Importância</a></li>
+                        <li tabindex="0"><a href="recursos.html" tabindex="0">Recursos</a></li>
+                        <li tabindex="0"><a href="tecnologias.html" tabindex="0">Tecnologias</a></li>
+                    </ul>
+                </article>
+                <article class="footer-coluna">
+                    <h3 tabindex="0">Contato</h3>
+                    <ul>
+                        <li tabindex="0"><a href="mailto:contato@programacaoinclusiva.com" tabindex="0">E-mail</a></li>
+                        <li tabindex="0"><a href="tel:+5511999999999" tabindex="0">Telefone</a></li>
+                        <li tabindex="0"><a href="https://www.instagram.com/acessibilidadecotidiana" target="_blank" tabindex="0">Instagram</a></li>
+                        <li tabindex="0"><a href="https://www.facebook.com/acessibilidadecotidiana" target="_blank" tabindex="0">Facebook</a></li>
+                    </ul>
+                </article>
+            </aside>
+        </section>
+    </footer>
+    
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+    <script src="../js/acessibilidades.js"></script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>
